@@ -1,4 +1,4 @@
-''' Sample test module (basic tests)
+''' Sample test module (advanced tests)
 
     This test module performs tests on the modules in \sample directory
 
@@ -18,7 +18,7 @@
 # For details read PEP 366: https://www.python.org/dev/peps/pep-0366/
 #
 if __name__ == "__main__" and __package__ is None:
-    __package__ = "test_basic"
+    __package__ = "test_advanced"
 
 #
 # Next you need the context.py file in the tests directory, as is described
@@ -34,7 +34,7 @@ import sample.helpers as helpers
 # Finally, this is the actual test
 # So, your test code goes here
 #
-if "world" in helpers.message():
-    print "OK - basic test works"
+if "Hello world" in helpers.message():
+    print "OK - great; also advanced test works"
 else:
     print "Not OK"
