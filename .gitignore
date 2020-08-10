@@ -1,5 +1,6 @@
 # My specific ignore requests
 .DS_Store
+*.pyc
 
 # Prerequisites
 *.d
