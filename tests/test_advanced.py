@@ -35,6 +35,6 @@ import sample.helpers as helpers
 # So, your test code goes here
 #
 if "Hello world" in helpers.message():
-    print "OK - great; also advanced test works"
+    print("OK - great; also advanced test works")
 else:
-    print "Not OK"
+    print("Not OK") 
