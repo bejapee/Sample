@@ -3,7 +3,7 @@
 ## Intro
 
 This document is the first document a user would read about your software.
-It is the face of your software; so make it crisp and clear; keep it short.
+It is the **face** of your software; so make it crisp and clear; keep it short.
 
 ## Installation
 
