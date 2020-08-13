@@ -10,4 +10,6 @@
 
 import subprocess
 
+print("Installing dependencies")
+print
 subprocess.call(["pip", "install", "-r", "requirements.txt"])
