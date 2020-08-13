@@ -1,23 +1,27 @@
 # Sample project <put here the name of your project or software>
 
+## Intro
+
 This document is the first document a user would read about your software.
 It is the face of your software; so make it crisp and clear; keep it short.
 
-Example installation:
+## Installation
 
   sh
     python -m venv venv
     source venv/bin/activate
 
-Get dependencies:
+## Get Dependencies
 
   pip install -r requirements.txt
 
-Run: from the "inner" project folder, i.e. sample\sample
+## Run
+
+  From the "inner" project folder, i.e. sample\sample
 
   FLASK_APP=core.py flask run
 
-Smoketest:
+## Smoketest
 
   The run-action starts a webserver; so now from another Terminal, position in the
   tests directory and enter:
